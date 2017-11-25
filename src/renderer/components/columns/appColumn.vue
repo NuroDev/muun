@@ -14,9 +14,15 @@
         </v-card>
         <v-spacer :style='"height:" + columnOptions.columnHeaderSpacer + "px;" '></v-spacer>
         <v-card>
-            <v-list v-for='i in 5' :key='i' style='padding: 0;'>
-                <appTweet></appTweet>
-            </v-list>
+            <v-container style="height: 90vh;" class="scroll-y pt-0" id="scroll-area">
+                <v-layout row align-center justify-center v-scroll="{target: '#scroll-area'}">
+                    <v-flex xs12>
+                        <v-list v-for='i in 20' :key='i' style='padding: 0;'>
+                            <appTweet></appTweet>
+                        </v-list>
+                    </v-flex>
+                </v-layout>
+            </v-container>
         </v-card>
     </section>
 </template>
