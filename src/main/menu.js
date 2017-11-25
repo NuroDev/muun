@@ -127,7 +127,7 @@ const menuTemplate = [
     }, {
       label: 'Changelog',
       click () {
-        electron.shell.openExternal('https://github.com/Meadowcottage/' + appTitle + '/releases/tag/' + appVersion)
+        electron.shell.openExternal('https://github.com/muunapp/' + appTitle + '/releases/tag/' + appVersion)
       }
     }]
   }]
