@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Moon 2@svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="3.74282526%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#03A9F4" offset="0%"></stop>
+            <stop stop-color="#0D47A1" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="511.559054" cy="512.559054" r="468.5"></circle>
+        <filter x="-2.6%" y="-1.7%" width="104.3%" height="104.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Moon-2">
+            <g id="BG" transform="translate(511.559054, 512.559054) rotate(-45.000000) translate(-511.559054, -512.559054) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M578.041458,106.470184 C657.721318,128.320456 724.122812,169.55992 777.245938,230.188576 C856.930628,321.131561 978.928028,510.556872 980.030887,512 C980.621856,512.773304 982.262668,550.524075 971.993302,601.188201 C963.098127,645.072729 944.617227,698.43224 916.714261,748.450562 C892.921635,791.100766 858.130106,831.146214 818.847977,866.617823 C748.879305,929.799259 656.544966,963.500346 578.041458,975.686514 C501.11036,987.628595 437.358503,978.762057 430.941402,970.968164 C417.976039,955.221078 239.905792,794.751884 181.468768,723.750683 C142.510752,676.416549 117.511764,627.845582 106.471802,578.037781 C339.241186,626.960508 488.488311,594.538136 554.213175,480.770664 C619.93804,367.003191 627.880801,242.236365 578.041458,106.470184 Z" id="Shadow" fill-opacity="0.2" fill="#424242"></path>
+            <g id="Icon" fill-rule="nonzero" fill="#FFFFFF">
+                <path d="M450.361914,161.282834 C380.17498,161.282834 314.230114,180.557319 257.540667,213.323944 C372.847773,280.013663 450.361914,404.141347 450.361914,546.772538 C450.361914,689.403729 372.847773,813.531414 257.540667,880.221133 C314.230114,912.987758 380.17498,932.262243 450.361914,932.262243 C663.236572,932.262243 836.004409,759.562855 836.004409,546.772538 C836.004409,333.982221 663.236572,161.282834 450.361914,161.282834 Z" id="Shape" transform="translate(546.772538, 546.772538) rotate(-315.000000) translate(-546.772538, -546.772538) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
