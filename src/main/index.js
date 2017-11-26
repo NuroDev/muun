@@ -1,14 +1,12 @@
 'use strict'
 
-const electron = require('electron')
-const appIsDev = require('electron-is-dev')
-const appLog = require('electron-log')
-// const ElectronStore = require('electron-store')
+import electron from 'electron'
+import appIsDev from 'electron-is-dev'
+import appLog from 'electron-log'
 
 var app = electron.app
 var appMenu = electron.Menu
 var appGlobalShortcut = electron.globalShortcut
-// var appStore = new ElectronStore()
 
 let mainWindow
 let winURL

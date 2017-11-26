@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "id": "column-0",
+      "icon": "home",
+      "title": "Home"
+    },
+    {
+      "id": "column-1",
+      "icon": "notifications",
+      "title": "Notifications"
+    },
+    {
+      "id": "column-2",
+      "icon": "rss_feed",
+      "title": "Activity"
+    },
+    {
+      "id": "column-3",
+      "icon": "person",
+      "title": "User"
+    },
+    {
+      "id": "column-4",
+      "icon": "forum",
+      "title": "Messages"
+    }
+  ]
+}

@@ -1,35 +1,24 @@
-const idPrefix = 'column-'
+import config from '../../../main/lib/config'
+
+const columnPrefix = 'column-'
 
 const state = {
-  columns: [
-    {
-      id: idPrefix + 0,
-      icon: 'home',
-      title: 'Home'
-    },
-    {
-      id: idPrefix + 1,
-      icon: 'notifications',
-      title: 'Notifications'
-    },
-    {
-      id: idPrefix + 2,
-      icon: 'rss_feed',
-      title: 'Activity'
-    },
-    {
-      id: idPrefix + 3,
-      icon: 'person',
-      title: 'User'
-    },
-    {
-      id: idPrefix + 4,
-      icon: 'forum',
-      title: 'Messages'
-    }
-  ]
+  columns: config.get('columns')
+}
+
+const mutations = {
+  setId (state, num, id) {
+    state.columns[num].id = columnPrefix + id
+  },
+  setIcon (state, num, newIcon) {
+    state.columns[num].icon = newIcon
+  },
+  setTitle (state, num, newTitle) {
+    state.columns[num].title = newTitle
+  }
 }
 
 export default {
-  state
+  state,
+  mutations
 }
