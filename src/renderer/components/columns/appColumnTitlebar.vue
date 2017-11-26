@@ -1,7 +1,7 @@
 <template>
   <v-card class='appColumnTitlebar'>
     <v-toolbar>
-        <v-btn class="draggable-anchor" icon>
+        <v-btn class="draggable-handle" icon>
             <v-icon v-html='icon'></v-icon>
         </v-btn>
         <v-toolbar-title v-html='title'></v-toolbar-title>

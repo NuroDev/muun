@@ -43,7 +43,7 @@
       return {
         isDarkTheme: settingsStore.state.theme.isDarkTheme,
         draggable: {
-          handle: '.draggable-anchor'
+          handle: '.draggable-handle'
         }
       }
     }
