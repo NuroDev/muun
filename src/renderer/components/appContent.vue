@@ -43,7 +43,7 @@
       return {
         isDarkTheme: settingsStore.state.theme.isDarkTheme,
         draggable: {
-          handle: '.appColumnTitlebar'
+          handle: '.draggable-anchor'
         }
       }
     }
