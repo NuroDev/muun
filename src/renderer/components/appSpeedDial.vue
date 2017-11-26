@@ -9,7 +9,7 @@
 
     <!-- Speed dial items(No tooltip) -->
     <v-tooltip left :key='i' v-for='(items, i) in speedDialOptions.items' :disabled='speedDialOptions.hideItemsTooltip'>
-      <v-btn fab :large='speedDialOptions.large' :small='speedDialOptions.subItems' color='primary' slot='activator'>
+      <v-btn fab :large='speedDialOptions.largeItems' :small='speedDialOptions.subItems' color='primary' slot='activator'>
         <v-icon v-html='items.icon'></v-icon>
       </v-btn>
       <span v-html="items.title"></span>
