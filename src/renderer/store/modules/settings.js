@@ -1,13 +1,14 @@
-import config from '../../../main/lib/config'
+import appIsDev from 'electron-is-dev'
 
-const state = {
-  general: config.get('settings.general'),
-  notifications: config.get('settings.notifications'),
-  theme: config.get('settings.theme'),
-  speedDialOptions: config.get('settings.speedDialOptions'),
-  columnOptions: config.get('settings.columnOptions'),
-  tweetOptions: config.get('settings.tweetOptions'),
-  composeOptions: config.get('settings.composeOptions')
+import config from '../../../main/lib/config'
+import exampleSettings from '../../../resources/settings.example.json'
+
+var state = {}
+
+if (!appIsDev) {
+  state = config.get('settings')
+} else {
+  state = exampleSettings.settings
 }
 
 const mutations = {

@@ -8,14 +8,7 @@ import store from './store'
 import settingsStore from './store/modules/settings'
 
 Vue.use(Vuetify, {
-  theme: {
-    primary: settingsStore.state.theme.colors.primary,
-    secondary: settingsStore.state.theme.colors.secondary,
-    accent: settingsStore.state.theme.colors.accent,
-    info: settingsStore.state.theme.colors.info,
-    warning: settingsStore.state.theme.colors.warning,
-    error: settingsStore.state.theme.colors.error
-  }
+  theme: settingsStore.state.theme.colors
 })
 Vue.use(VueScrollTo)
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
