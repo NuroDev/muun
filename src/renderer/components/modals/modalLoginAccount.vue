@@ -1,12 +1,12 @@
 <template>
     <v-layout row justify-center>
-        <v-dialog v-model='showAccountsModal' max-width='750px'>
+        <v-dialog v-model='showAccountLoginModal' max-width='750px'>
             <v-card>
                 <!-- Accounts modal toolbar -->
                 <v-toolbar>
-                    <v-toolbar-title>Accounts</v-toolbar-title>
+                    <v-toolbar-title>Log in</v-toolbar-title>
                     <v-spacer></v-spacer>
-                    <v-btn icon flat @click='showAccountsModal = !showAccountsModal'>
+                    <v-btn icon flat @click='showAccountLoginModal = !showAccountLoginModal'>
                         <v-icon>close</v-icon>
                     </v-btn>
                 </v-toolbar>
@@ -34,7 +34,7 @@
   export default {
     data () {
       return {
-        showAccountsModal: modalsStore.state.showAccountsModal
+        showAccountLoginModal: modalsStore.state.showAccountLoginModal
       }
     }
   }

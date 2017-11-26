@@ -1,6 +1,7 @@
 <template>
   <div id='app'>
     <appTitlebar></appTitlebar>
+    <appModals></appModals>
     <appContent></appContent>
     <appSpeedDial></appSpeedDial>
   </div>
@@ -8,12 +9,14 @@
 
 <script>
   import appTitlebar from './components/appTitlebar'
+  import appModals from './components/modals/appModals'
   import appContent from './components/appContent'
   import appSpeedDial from './components/appSpeedDial'
 
   export default {
     components: {
       appTitlebar,
+      appModals,
       appContent,
       appSpeedDial
     }

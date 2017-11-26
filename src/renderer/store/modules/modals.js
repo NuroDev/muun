@@ -1,7 +1,9 @@
 const state = {
-  showSettingsDialog: false,
-  showAccountsDialog: false,
-  showAddColumnDialog: false,
+  showSettingsModal: false,
+  showAccountsModal: false,
+  showAddColumnModal: false,
+  showAccountLoginModal: false,
+  showKeyBindingsModal: false,
   settingsTabs: [
     {
       icon: 'view_list',
@@ -34,6 +36,25 @@ const state = {
   ]
 }
 
+const mutations = {
+  toggleSettingsModal (state) {
+    state.showSettingsDialog = !state.showSettingsDialog
+  },
+  toggleAccountsModal (state) {
+    state.showAccountsModal = !state.showAccountsModal
+  },
+  toggleAddColumnModal (state) {
+    state.showAddColumnModal = !state.showAddColumnModal
+  },
+  toggleAccountsLoginModal (state) {
+    state.showAccountLoginModal = !state.showAccountLoginModal
+  },
+  toggleKeyBindingsModal (state) {
+    state.showKeyBindingsModal = !state.showKeyBindingsModal
+  }
+}
+
 export default {
-  state
+  state,
+  mutations
 }

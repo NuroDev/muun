@@ -1,12 +1,12 @@
 <template>
     <v-layout row justify-center>
-        <v-dialog v-model='showAddColumnDialog' max-width='750px'>
+        <v-dialog v-model='showAddColumnModal' max-width='750px'>
             <v-card>
                 <!-- Add column modal toolbar -->
                 <v-toolbar>
-                    <v-toolbar-title>Accounts</v-toolbar-title>
+                    <v-toolbar-title>Add Column</v-toolbar-title>
                     <v-spacer></v-spacer>
-                    <v-btn icon flat @click='showAddColumnDialog = !showAddColumnDialog'>
+                    <v-btn icon flat @click='showAddColumnModal = !showAddColumnModal'>
                         <v-icon>close</v-icon>
                     </v-btn>
                 </v-toolbar>
@@ -15,7 +15,7 @@
                 <v-card>
                     <v-container grid-list-md text-xs-center>
                         <v-layout row wrap>
-                            <v-flex xs4 v-for='i in 3' :key='i'>
+                            <v-flex xs4 v-for='i in 9' :key='i'>
                                 <v-card color='primary'>
                                     <v-card-text class='px-0'>4</v-card-text>
                                 </v-card>
@@ -34,7 +34,7 @@
   export default {
     data () {
       return {
-        showAddColumnDialog: modalsStore.state.showAddColumnDialog
+        showAddColumnModal: modalsStore.state.showAddColumnModal
       }
     }
   }

@@ -1,13 +1,13 @@
 <template>
     <v-layout row justify-center>
-        <v-dialog v-model='showSettingsDialog' max-width='750px'>
+        <v-dialog v-model='showSettingsModal' max-width='750px'>
             <v-card>
                 <!-- Setting modal toolbar -->
                 <v-tabs grow>
                     <v-toolbar>
                         <v-toolbar-title>Settings</v-toolbar-title>
                         <v-spacer></v-spacer>
-                        <v-btn icon flat @click='showSettingsDialog = !showSettingsDialog'>
+                        <v-btn icon flat @click='showSettingsModal = !showSettingsModal'>
                             <v-icon>close</v-icon>
                         </v-btn>
                         <v-tabs-bar slot="extension">
@@ -47,7 +47,7 @@
   export default {
     data () {
       return {
-        showSettingsDialog: modalsStore.state.showSettingsDialog,
+        showSettingsModal: modalsStore.state.showSettingsModal,
         settingsDialogTabs: modalsStore.state.settingsTabs
       }
     }
