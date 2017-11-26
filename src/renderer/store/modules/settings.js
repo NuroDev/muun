@@ -32,8 +32,8 @@ const state = {
   },
   speedDialOptions: {
     fab: false,
-    direction: 'left',
-    transition: 'slide-x-reverse-transition',
+    direction: 'top',
+    transition: 'slide-y-reverse-transition',
     hover: false,
     large: false,
     smallItems: false,
