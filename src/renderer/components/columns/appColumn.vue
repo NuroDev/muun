@@ -1,5 +1,5 @@
 <template>
-    <section v-bind:style='customColumnStyles' class='appColumn' :id='columnId'>
+    <section v-bind:style='customColumnStyles' class='appColumn' :id='columnId' transition='scale-transition' origin='center center'>
         <appColumnTitlebar :icon='icon' :title='title'></appColumnTitlebar>
         <v-spacer :style='"height:" + columnOptions.columnHeaderSpacer + "px;" '></v-spacer>
         <appColumnList></appColumnList>

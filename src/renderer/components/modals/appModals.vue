@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section transition='scale-transition' origin='center center'>
     <modalAccounts />
     <modalAddColumn />
     <modalKeyBindings />
