@@ -64,6 +64,7 @@
     },
     "columnOptions": {
       "draggable": true,
+      "draggableSpeed": 250,
       "loadingIndicator": true,
       "hideScrollbars": true,
       "showHeaderIcons": true,

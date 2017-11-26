@@ -11,6 +11,8 @@
   import columnsStore from '../../store/modules/columns'
   import draggable from 'vuedraggable'
 
+  import settingsStore from '../../store/modules/settings'
+
   export default {
     components: {
       appColumn,
@@ -29,7 +31,7 @@
     data () {
       return {
         draggable: {
-          animation: 250,
+          animation: settingsStore.state.columnOptions.draggableSpeed,
           ghostClass: 'ghost',
           handle: '.draggable-handle'
         }
