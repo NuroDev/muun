@@ -12,7 +12,7 @@ const state = {
       title: 'Notifications'
     },
     {
-      icon: 'palette',
+      icon: 'brush',
       title: 'Theme'
     },
     {
