@@ -4,11 +4,7 @@
     <v-content>
       <v-container fluid>
         <v-layout row>
-          <draggable element="section" class="draggable" :options="draggable" v-model="columns">
-            <section v-for='i in columns' :key='i'>
-              <appColumn :icon='i.icon' :title='i.title' :columnId='i.id'></appColumn>
-            </section>
-          </draggable>
+          <appColumnsDraggable></appColumnsDraggable>
         </v-layout>
       </v-container>
     </v-content>
@@ -17,34 +13,18 @@
 
 <script>
   import appSidebar from './appSidebar'
-  import appColumn from './columns/appColumn'
+  import appColumnsDraggable from './columns/appColumnsDraggable'
 
-  import draggable from 'vuedraggable'
-  import columnsStore from '../store/modules/columns'
   import settingsStore from '../store/modules/settings'
 
   export default {
     components: {
-      appColumn,
-      appSidebar,
-      draggable
-    },
-    computed: {
-      columns: {
-        get () {
-          return columnsStore.state.columns
-        },
-        set (value) {
-          this.$store.commit('updateColumnsOrder', value)
-        }
-      }
+      appColumnsDraggable,
+      appSidebar
     },
     data () {
       return {
-        isDarkTheme: settingsStore.state.theme.isDarkTheme,
-        draggable: {
-          handle: '.draggable-handle'
-        }
+        isDarkTheme: settingsStore.state.theme.isDarkTheme
       }
     }
   }
