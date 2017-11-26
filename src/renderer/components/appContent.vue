@@ -4,9 +4,11 @@
     <v-content>
       <v-container fluid>
         <v-layout row>
-          <section v-for='i in columns' :key='i'>
-            <appColumn :icon='i.icon' :title='i.title' :columnId='i.id'></appColumn>
-          </section>
+          <draggable element="section" class="draggable" :options="draggable" v-model="columns">
+            <section v-for='i in columns' :key='i'>
+              <appColumn :icon='i.icon' :title='i.title' :columnId='i.id'></appColumn>
+            </section>
+          </draggable>
         </v-layout>
       </v-container>
     </v-content>
@@ -17,25 +19,31 @@
   import appSidebar from './appSidebar'
   import appColumn from './columns/appColumn'
 
-  import settingsStore from '../store/modules/settings'
+  import draggable from 'vuedraggable'
   import columnsStore from '../store/modules/columns'
+  import settingsStore from '../store/modules/settings'
 
   export default {
     components: {
+      appColumn,
       appSidebar,
-      appColumn
+      draggable
     },
+
     data () {
       return {
         isDarkTheme: settingsStore.state.theme.isDarkTheme,
-        columns: columnsStore.state.columns
+        columns: columnsStore.state.columns,
+        draggable: {
+          handle: '.appColumnTitlebar'
+        }
       }
     }
   }
 </script>
 
 <style>
-  /** 
+  /**
   * Core Vuetify overwrites
   **/
   .container {
@@ -52,6 +60,9 @@
     background: linear-gradient(180deg, rgba(51, 51, 51, 0.75) 0%, rgba(51, 51, 51, 0.75) 100%) fixed;
     background-attachment: fixed;
     background-size: cover;
+  }
+  .draggable {
+    display: flex;
   }
   .content {
     padding-left: 0!important;
