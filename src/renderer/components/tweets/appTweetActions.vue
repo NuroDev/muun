@@ -1,6 +1,6 @@
 <template>
   <v-tabs centered>
-    <v-tabs-bar class='secondary'>
+    <v-tabs-bar>
       <v-tabs-item>
         <v-icon>reply</v-icon>
       </v-tabs-item>
