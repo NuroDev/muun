@@ -29,11 +29,19 @@
       appSidebar,
       draggable
     },
-
+    computed: {
+      columns: {
+        get () {
+          return columnsStore.state.columns
+        },
+        set (value) {
+          this.$store.commit('updateColumnsOrder', value)
+        }
+      }
+    },
     data () {
       return {
         isDarkTheme: settingsStore.state.theme.isDarkTheme,
-        columns: columnsStore.state.columns,
         draggable: {
           handle: '.appColumnTitlebar'
         }
