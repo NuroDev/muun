@@ -49,9 +49,6 @@
     background-attachment: fixed;
     background-size: cover;
   }
-  .draggable {
-    display: flex;
-  }
   .content {
     padding-left: 0!important;
   }

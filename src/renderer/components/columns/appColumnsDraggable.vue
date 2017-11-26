@@ -1,7 +1,7 @@
 <template>
-  <draggable element="section" class="draggable" :options="draggable" v-model="columns">
-    <section v-for='i in columns' :key='i'>
-      <appColumn :icon='i.icon' :title='i.title' :columnId='i.id'></appColumn>
+  <draggable element="section" class="d-flex" :options="draggable" v-model="columns">
+    <section v-for='column in columns' :key='column.id'>
+      <appColumn :icon='column.icon' :title='column.title' :columnId='column.id'></appColumn>
     </section>
   </draggable>
 </template>
@@ -29,9 +29,17 @@
     data () {
       return {
         draggable: {
+          animation: 250,
+          ghostClass: 'ghost',
           handle: '.draggable-handle'
         }
       }
     }
   }
 </script>
+
+<style>
+  .ghost {
+    opacity: .5;
+  }
+</style>
