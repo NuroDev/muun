@@ -75,6 +75,7 @@
     "vue-router": "^2.5.3",
     "vue-scrollto": "^2.8.0",
     "vue-twitter-counter": "^0.2.1",
+    "vuedraggable": "^2.15.0",
     "vuetify": "0.17.2",
     "vuex": "^2.3.1"
   },
