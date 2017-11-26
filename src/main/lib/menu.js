@@ -1,6 +1,6 @@
 // Electron
 const electron = require('electron')
-const packageJson = require('../../package.json')
+const packageJson = require('../../../package.json')
 
 const app = electron.app
 const appTitle = 'Muun'

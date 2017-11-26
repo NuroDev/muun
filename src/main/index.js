@@ -53,7 +53,7 @@ function createWindow () {
 
   // Setting App menu
   appLog.info('| MAIN | Loading menu |')
-  appMenu.setApplicationMenu(require('./menu'))
+  appMenu.setApplicationMenu(require('./lib/menu'))
 
   // If running in dev environment
   if (appIsDev) {
