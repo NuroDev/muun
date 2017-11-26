@@ -21,8 +21,8 @@
         get () {
           return columnsStore.state.columns
         },
-        set (value) {
-          this.$store.commit('updateColumnsOrder', value)
+        set (columns) {
+          this.$store.commit('updateColumnsOrder', columns)
         }
       }
     },
