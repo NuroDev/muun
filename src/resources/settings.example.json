@@ -36,8 +36,8 @@
       "direction": "top",
       "transition": "slide-y-reverse-transition",
       "hover": false,
-      "large": false,
       "smallItems": false,
+      "largeItems": false,
       "hideItemsTooltip": false,
       "items": [
         {
