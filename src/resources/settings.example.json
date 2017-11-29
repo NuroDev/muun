@@ -1,7 +1,6 @@
 {
   "settings": {
     "general": {
-      "showDrawer": true,
       "hiddenMessages": true,
       "launchOnStartUp": false,
       "checkOnlineStatus": true,

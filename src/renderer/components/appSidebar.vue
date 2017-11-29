@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer permanent floating mini-variant fixed app v-show='showDrawer' transition='slide-x-transition'>
+    <v-navigation-drawer permanent floating mini-variant fixed app transition='slide-x-transition'>
 
         <!-- If on MacOS add spacer to top of sidebar to accomadate for custom titlebar -->
         <v-spacer v-if='os === "darwin"' style='height: 32px;'></v-spacer>
