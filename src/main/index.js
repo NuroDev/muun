@@ -11,19 +11,6 @@ var appGlobalShortcut = electron.globalShortcut
 let mainWindow
 let winURL
 
-/**
-TODO: Use this function in mainWindow backgroundColor param
-Have it pull isDarkTheme boolean from electron store
-
-function setBackgroundColor () {
-  if (appStore.get('settings.general.isDarkTheme') === true) {
-    return '#424242'
-  } else {
-    return '#ffffff'
-  }
-}
-**/
-
 function createWindow () {
   /**
    * Initial window options
