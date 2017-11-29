@@ -3,27 +3,32 @@
     {
       "id": "column-0",
       "icon": "home",
-      "title": "Home"
+      "title": "Home",
+      "order": 0
     },
     {
       "id": "column-1",
       "icon": "notifications",
-      "title": "Notifications"
+      "title": "Notifications",
+      "order": 1
     },
     {
       "id": "column-2",
       "icon": "rss_feed",
-      "title": "Activity"
+      "title": "Activity",
+      "order": 2
     },
     {
       "id": "column-3",
       "icon": "person",
-      "title": "User"
+      "title": "User",
+      "order": 3
     },
     {
       "id": "column-4",
       "icon": "forum",
-      "title": "Messages"
+      "title": "Messages",
+      "order": 4
     }
   ]
 }

@@ -4,9 +4,7 @@
     <v-content>
       <v-container fluid>
         <v-layout row>
-          <section v-for='i in columns' :key='i'>
-            <appColumn :icon='i.icon' :title='i.title' :columnId='i.id'></appColumn>
-          </section>
+          <appColumnsDraggable></appColumnsDraggable>
         </v-layout>
       </v-container>
     </v-content>
@@ -15,27 +13,25 @@
 
 <script>
   import appSidebar from './appSidebar'
-  import appColumn from './columns/appColumn'
+  import appColumnsDraggable from './columns/appColumnsDraggable'
 
   import settingsStore from '../store/modules/settings'
-  import columnsStore from '../store/modules/columns'
 
   export default {
     components: {
-      appSidebar,
-      appColumn
+      appColumnsDraggable,
+      appSidebar
     },
     data () {
       return {
-        isDarkTheme: settingsStore.state.theme.isDarkTheme,
-        columns: columnsStore.state.columns
+        isDarkTheme: settingsStore.state.theme.isDarkTheme
       }
     }
   }
 </script>
 
 <style>
-  /** 
+  /**
   * Core Vuetify overwrites
   **/
   .container {

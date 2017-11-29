@@ -3,7 +3,7 @@ import config from '../../../main/lib/config'
 const columnPrefix = 'column-'
 
 const state = {
-  columns: config.get('columns')
+  columns: config.get('columns').sort((a, b) => a.order - b.order)
 }
 
 const mutations = {
@@ -15,6 +15,13 @@ const mutations = {
   },
   setTitle (state, num, newTitle) {
     state.columns[num].title = newTitle
+  },
+  updateColumnsOrder (state, columns) {
+    state.columns = columns.map((column, i) => {
+      column.order = i
+
+      return column
+    })
   }
 }
 
