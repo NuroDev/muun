@@ -10,16 +10,16 @@
           </v-list-tile-avatar>
           <v-list-tile-content>
             <v-list-tile-title>
-              <span v-html='i.displayName'></span>
-              <span v-html='i.username'></span>
+              <span v-html='i.displayName' />
+              <span v-html='i.username' />
             </v-list-tile-title>
-            <v-list-tile-sub-title :style='tweetTextStyles' v-html='i.text'></v-list-tile-sub-title>
+            <v-list-tile-sub-title :style='tweetTextStyles' v-html='i.text' />
           </v-list-tile-content>
-          <v-divider></v-divider>
+          <v-divider />
         </v-list-tile>
 
         <!-- Tweet actions tab drop down -->
-        <appTweetActions></appTweetActions>
+        <appTweetActions />
 
       </v-list-group>
     </v-list>

@@ -1,6 +1,6 @@
 <template>
     <!-- MacOS: Titlebar invisible  -->
-    <div v-if='isDarwin' color='secondary' class='appTitleBar'></div>
+    <div v-if='isDarwin' color='secondary' class='appTitleBar' />
 </template>
 
 <script>

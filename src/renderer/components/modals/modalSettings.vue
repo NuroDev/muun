@@ -6,7 +6,7 @@
                 <v-tabs grow>
                     <v-toolbar>
                         <v-toolbar-title>Settings</v-toolbar-title>
-                        <v-spacer></v-spacer>
+                        <v-spacer />
                         <v-btn icon flat @click='showSettingsModal = !showSettingsModal'>
                             <v-icon>close</v-icon>
                         </v-btn>
@@ -15,9 +15,9 @@
                             <v-tabs-item v-for="(item, i) in settingsDialogTabs" :key="i" :href="'#settingsModalTab-' + (i + 1)">
                                 <v-tooltip top>
                                     <div slot="activator">
-                                        <v-icon v-html='item.icon'></v-icon>
+                                        <v-icon v-html='item.icon' />
                                     </div>
-                                    <span v-html='item.title'></span>
+                                    <span v-html='item.title' />
                                 </v-tooltip>
                             </v-tabs-item>
                         </v-tabs-bar>

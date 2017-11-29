@@ -1,10 +1,10 @@
 <template>
   <v-app :dark='isDarkTheme'>
-    <appSidebar></appSidebar>
+    <appSidebar />
     <v-content>
       <v-container fluid>
         <v-layout row>
-          <appColumnsDraggable></appColumnsDraggable>
+          <appColumnsDraggable />
         </v-layout>
       </v-container>
     </v-content>

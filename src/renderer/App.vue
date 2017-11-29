@@ -1,9 +1,9 @@
 <template>
   <div id='app'>
-    <appTitlebar></appTitlebar>
-    <appModals></appModals>
-    <appContent></appContent>
-    <appSpeedDial></appSpeedDial>
+    <appTitlebar />
+    <appModals />
+    <appContent />
+    <appSpeedDial />
   </div>
 </template>
 

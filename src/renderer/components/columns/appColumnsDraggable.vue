@@ -1,7 +1,7 @@
 <template>
   <draggable element='section' class='d-flex' :options='dragOptions' v-model='columns'>
     <section v-for='column in columns' :key='column.id'>
-      <appColumn :icon='column.icon' :title='column.title' :columnId='column.id'></appColumn>
+      <appColumn :icon='column.icon' :title='column.title' :columnId='column.id' />
     </section>
   </draggable>
 </template>
