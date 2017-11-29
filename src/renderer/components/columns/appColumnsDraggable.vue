@@ -1,5 +1,5 @@
 <template>
-  <draggable element='section' class='d-flex' :options='draggable' v-model='columns'>
+  <draggable element='section' class='d-flex' :options='dragOptions' v-model='columns'>
     <section v-for='column in columns' :key='column.id'>
       <appColumn :icon='column.icon' :title='column.title' :columnId='column.id'></appColumn>
     </section>
@@ -7,11 +7,11 @@
 </template>
 
 <script>
-  import appColumn from './appColumn'
-  import columnsStore from '../../store/modules/columns'
   import draggable from 'vuedraggable'
 
+  import appColumn from './appColumn'
   import settingsStore from '../../store/modules/settings'
+  import columnsStore from '../../store/modules/columns'
 
   export default {
     components: {
@@ -30,11 +30,7 @@
     },
     data () {
       return {
-        draggable: {
-          animation: settingsStore.state.columnOptions.draggableSpeed,
-          ghostClass: 'ghost',
-          handle: '.draggable-handle'
-        }
+        dragOptions: settingsStore.state.dragOptions
       }
     }
   }

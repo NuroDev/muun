@@ -63,7 +63,6 @@
     },
     "columnOptions": {
       "draggable": true,
-      "draggableSpeed": 250,
       "loadingIndicator": true,
       "hideScrollbars": true,
       "showHeaderIcons": true,
@@ -72,6 +71,11 @@
       "columnWidth": 324,
       "columnPadding": 10,
       "columnHeaderSpacer": 0
+    },
+    "dragOptions": {
+      "animation": 250,
+      "ghostClass": "ghost",
+      "handle": ".draggable-handle"
     },
     "tweetOptions": {
       "autoPlayGifs": true,
