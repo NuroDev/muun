@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import appSidebar from './appSidebar'
+  import appSidebar from './sidebar/appSidebar'
   import appColumnsDraggable from './columns/appColumnsDraggable'
 
   import settingsStore from '../store/modules/settings'

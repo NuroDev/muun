@@ -19,14 +19,7 @@
 
             <!-- Generate list of column items based on array in columns store -->
             <v-list-tile :key='i' v-for='(column, i) in columns' exact>
-              <v-list-tile-action>
-                 <v-tooltip right>
-                  <v-btn flat slot="activator" href='#' v-scroll-to='column.id' :icon='smallItemBtn'>
-                    <v-icon v-html="column.icon"></v-icon>
-                  </v-btn>
-                  <span v-html="column.title"></span>
-                </v-tooltip>
-              </v-list-tile-action>
+              <appSidebarColumnItems :id='column.id' :title='column.title' :icon='column.icon' :smallIcon='smallItemBtn'></appSidebarColumnItems>
             </v-list-tile>
 
             <!-- Add column item always last -->
@@ -70,10 +63,15 @@
 </template>
 
 <script>
-  import settingsStore from '../store/modules/settings'
-  import columnsStore from '../store/modules/columns'
+  import appSidebarColumnItems from './appSidebarColumnItems'
+
+  import settingsStore from '../../store/modules/settings'
+  import columnsStore from '../../store/modules/columns'
 
   export default {
+    components: {
+      appSidebarColumnItems
+    },
     data () {
       return {
         smallItemBtn: settingsStore.state.general.sidebarItemsSmallerBtn,
