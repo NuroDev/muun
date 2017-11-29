@@ -33,11 +33,10 @@
             <v-list-tile>
               <v-list-tile-action>
                 <v-tooltip right>
-                  <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop="showAddColumnDialog = !showAddColumnDialog">
+                  <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop='$store.commit("toggleAddColumnModal")'>
                     <v-icon>add</v-icon>
                   </v-btn>
                   <span>Add Column</span>
-                  <modalAddColumn></modalAddColumn>
                  </v-tooltip>
               </v-list-tile-action>
             </v-list-tile>
@@ -46,11 +45,10 @@
               <v-list-tile>
                 <v-list-tile-action>
                   <v-tooltip right>
-                    <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop="showAccountsDialog = !showAccountsDialog">
+                    <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop='$store.commit("toggleAccountsModal")'>
                       <v-icon>group</v-icon>
                     </v-btn>
                     <span>Accounts</span>
-                    <modalAccounts></modalAccounts>
                   </v-tooltip>
                 </v-list-tile-action>
               </v-list-tile>
@@ -58,11 +56,10 @@
               <v-list-tile>
                 <v-list-tile-action>
                   <v-tooltip right>
-                    <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop="showSettingsDialog = !showSettingsDialog">
+                    <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop='$store.commit("toggleSettingsModal")'>
                       <v-icon>settings</v-icon>
                     </v-btn>
                     <span>Settings</span>
-                    <modalSettings></modalSettings>
                   </v-tooltip>
                 </v-list-tile-action>
               </v-list-tile>
@@ -74,25 +71,11 @@
 
 <script>
   import settingsStore from '../store/modules/settings'
-  import modalsStore from '../store/modules/modals'
   import columnsStore from '../store/modules/columns'
 
-  import modalSettings from './modals/modalSettings'
-  import modalAccounts from './modals/modalAccounts'
-  import modalAddColumn from './modals/modalAddColumn'
-
   export default {
-    components: {
-      modalSettings,
-      modalAccounts,
-      modalAddColumn
-    },
     data () {
       return {
-        showDrawer: settingsStore.state.general.showDrawer,
-        showSettingsDialog: modalsStore.state.showSettingsDialog,
-        showAccountsDialog: modalsStore.state.showAccountsDialog,
-        showAddColumnDialog: modalsStore.state.showAddColumnDialog,
         smallItemBtn: settingsStore.state.general.sidebarItemsSmallerBtn,
         columns: columnsStore.state.columns,
         os: process.platform

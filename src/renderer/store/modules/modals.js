@@ -54,7 +54,26 @@ const mutations = {
   }
 }
 
+const actions = {
+  toggleSettingsModal ({commit}) {
+    commit('toggleSettingsModal')
+  },
+  toggleAccountsModal ({commit}) {
+    commit('toggleAccountsModal')
+  },
+  toggleAddColumnModal ({commit}) {
+    commit('toggleAddColumnModal')
+  },
+  toggleAccountsLoginModal ({commit}) {
+    commit('toggleAccountsLoginModal')
+  },
+  toggleKeyBindingsModal ({commit}) {
+    commit('toggleKeyBindingsModal')
+  }
+}
+
 export default {
   state,
-  mutations
+  mutations,
+  actions
 }
