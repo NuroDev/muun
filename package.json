@@ -71,6 +71,7 @@
     "twitter": "^1.7.1",
     "vue": "^2.4.2",
     "vue-electron": "^1.0.6",
+    "vue-i18n": "^7.3.2",
     "vue-loading-bar": "^1.0.0",
     "vue-router": "^2.5.3",
     "vue-scrollto": "^2.8.0",
