@@ -1,10 +1,10 @@
 .DS_Store
 dist/electron/*
-dist/web/*
-build/out
+dist/*
 !build/icons
 node_modules/
 npm-debug.log
 npm-debug.log.*
 thumbs.db
 !.gitkeep
+src/resources/credentials.json

@@ -5,7 +5,7 @@
   "author": "Meadowcottage",
   "description": "Live Twitter Dashboard",
   "license": "GPL-3.0",
-  "main": "./dist/electron/main.js",
+  "main": "./dist/web/main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/muunapp/muun.git"
@@ -27,10 +27,10 @@
     "productName": "muun",
     "appId": "space.muun.app",
     "directories": {
-      "output": "build/out"
+      "output": "dist/electron"
     },
     "files": [
-      "dist/electron/**/*"
+      "dist/web/**/*"
     ],
     "dmg": {
       "background": "build/muun-background@2x.png",
