@@ -24,3 +24,14 @@
   </section>
 </template>
 
+<script>
+  import settingsStore from '../../store/modules/settings'
+
+  export default {
+    data () {
+      return {
+        smallItemBtn: settingsStore.state.general.sidebarItemsSmallerBtn
+      }
+    }
+  }
+</script>
