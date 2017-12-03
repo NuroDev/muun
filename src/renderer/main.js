@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueElectron from 'vue-electron'
 import Vuetify from 'vuetify'
 import VueScrollTo from 'vue-scrollto'
 
@@ -8,6 +9,7 @@ import store from './store'
 import i18n from './i18n'
 import settingsStore from './store/modules/settings'
 
+Vue.use(VueElectron)
 Vue.use(Vuetify, {
   theme: settingsStore.state.theme.colors
 })
