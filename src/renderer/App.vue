@@ -13,16 +13,13 @@
   import appContent from './components/appContent'
   import appSpeedDial from './components/appSpeedDial'
 
-  import i18n from './i18n'
-
   export default {
     components: {
       appTitlebar,
       appModals,
       appContent,
       appSpeedDial
-    },
-    i18n
+    }
   }
 </script>
 
