@@ -3,6 +3,7 @@
     <v-container class="appColumn scroll-y pt-0" id="scroll-area">
         <v-layout row align-center justify-center v-scroll="{target: '#scroll-area'}">
             <v-flex xs12>
+                <appColumnTitlebar :icon='icon' :title='title' />
                 <v-list v-for='i in 20' :key='i' style='padding: 0;'>
                     <appTweet />
                 </v-list>
@@ -14,10 +15,13 @@
 
 <script>
   import appTweet from '../tweets/appTweet'
+  import appColumnTitlebar from './appColumnTitlebar'
 
   export default {
     components: {
+      appColumnTitlebar,
       appTweet
-    }
+    },
+    props: ['icon', 'title']
   }
 </script>

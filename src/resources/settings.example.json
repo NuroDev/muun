@@ -69,11 +69,10 @@
       "showDivider": true,
       "thinnerScrollbars": false,
       "columnWidth": 324,
-      "columnPadding": 10,
       "columnHeaderSpacer": 0
     },
     "dragOptions": {
-      "animation": 250,
+      "animation": 150,
       "ghostClass": "ghost",
       "handle": ".draggable-handle"
     },

@@ -2,7 +2,7 @@
   <v-card class='appColumnTitlebar'>
     <v-toolbar>
         <v-icon class='draggable-handle' v-html='icon' />
-        <v-toolbar-title class='draggable-handle' v-html='title' />
+        <v-toolbar-title v-html='title' />
         <v-spacer />
         <v-btn icon>
             <v-icon>more_vert</v-icon>

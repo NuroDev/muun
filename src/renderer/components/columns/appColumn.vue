@@ -1,8 +1,7 @@
 <template>
     <section v-bind:style='customColumnStyles' class='appColumn' :id='columnId' transition='scale-transition' origin='center center'>
-        <appColumnTitlebar :icon='icon' :title='title' />
         <v-spacer :style='"height:" + columnOptions.columnHeaderSpacer + "px;"' />
-        <appColumnList />
+        <appColumnList :icon='icon' :title='title' />
     </section>
 </template>
 
@@ -25,7 +24,7 @@
         columnOptions: settingsStore.state.columnOptions,
         customColumnStyles: {
           width: settingsStore.state.columnOptions.columnWidth + 'px',
-          padding: settingsStore.state.columnOptions.columnPadding + 'px'
+          padding: '1px'
         }
       }
     }
@@ -33,7 +32,10 @@
 </script>
 
 <style>
-    .appColumn {
-        height: 99vh;
-    }
+  .container {
+    padding: 1px;
+  }
+  .appColumn {
+      height: 100vh;
+  }
 </style>
