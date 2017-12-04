@@ -1887,10 +1887,6 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
-copy-text-to-clipboard@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/copy-text-to-clipboard/-/copy-text-to-clipboard-1.0.3.tgz#69662cd305493c925c02a384cbcae76d642d77f3"
-
 copy-webpack-plugin@^4.0.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-4.2.1.tgz#4017366b2d815bd2997e7d6b2b2446f719f486a1"
@@ -6900,6 +6896,10 @@ uuid@^2.0.2:
 uuid@^3.0.0, uuid@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
+
+v-clipboard@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/v-clipboard/-/v-clipboard-1.0.4.tgz#ffd423484c61b81685d7ea23f2abd2c0e25a7de0"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.1"
