@@ -22,7 +22,7 @@
 <style>
     .appTitleBar {
         width: 100%;
-        height: 24px;
+        height: 18px;
         -webkit-app-region: drag;
         position: fixed;
     }
