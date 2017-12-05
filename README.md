@@ -11,7 +11,9 @@
 
 <p> 💙 Inspired by <a href='http://tweetdeck.com'> Tweetdeck </a> 💙 </p>
 
-<img src="https://github.com/muunapp/muun/blob/master/screenshot.png?raw=true" />
+<img src="https://github.com/muunapp/muun/blob/master/Screenshot-light.png?raw=true" />
+
+<img src="https://github.com/muunapp/muun/blob/master/Screenshot-dark.png?raw=true" />
 
 </div>
 
