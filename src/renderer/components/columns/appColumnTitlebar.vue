@@ -1,7 +1,9 @@
 <template>
   <v-card class='appColumnTitlebar'>
     <v-toolbar>
-        <v-icon class='draggable-handle' v-html='icon' />
+        <v-icon class='draggable-handle'>drag_handle</v-icon>
+        <v-spacer />
+        <v-icon v-html='icon' />
         <v-toolbar-title v-html='title' />
         <v-spacer />
         <v-btn icon>
