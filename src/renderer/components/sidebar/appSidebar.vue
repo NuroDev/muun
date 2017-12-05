@@ -1,16 +1,16 @@
 <template>
-    <v-navigation-drawer permanent floating mini-variant fixed app transition='slide-x-transition'>
+    <v-navigation-drawer :class='!$vuetify.dark ? "primary" : ""' permanent floating mini-variant fixed app transition='slide-x-transition'>
 
         <!-- If on MacOS add spacer to top of sidebar to accomadate for custom titlebar -->
         <v-spacer v-if='os === "darwin"' style='height: 32px;' />
 
-        <v-list>
+        <v-list :class='!$vuetify.dark ? "white--text" : ""'>
             <!-- Search item always first (TEMP) -->
             <v-list-tile>
               <v-list-tile-action>
                  <v-tooltip right>
                   <v-btn flat slot="activator" :icon='smallItemBtn'>
-                    <v-icon>search</v-icon>
+                    <v-icon :class='!$vuetify.dark ? "white--text" : ""'>search</v-icon>
                   </v-btn>
                   <span>Search</span>
                  </v-tooltip>
@@ -27,7 +27,7 @@
               <v-list-tile-action>
                 <v-tooltip right>
                   <v-btn flat slot="activator" :icon='smallItemBtn' @click.stop='$store.commit("toggleAddColumnModal")'>
-                    <v-icon>add</v-icon>
+                    <v-icon :class='!$vuetify.dark ? "white--text" : ""'>add</v-icon>
                   </v-btn>
                   <span>Add Column</span>
                  </v-tooltip>
