@@ -38,7 +38,7 @@ const state = {
 
 const mutations = {
   toggleSettingsModal (state) {
-    state.showSettingsDialog = !state.showSettingsDialog
+    state.showSettingsModal = !state.showSettingsModal
   },
   toggleAccountsModal (state) {
     state.showAccountsModal = !state.showAccountsModal
