@@ -55,7 +55,7 @@
     data () {
       return {
         smallItemBtn: settingsStore.state.general.sidebarItemsSmallerBtn,
-        columns: columnsStore.state.columns,
+        columns: columnsStore.state,
         os: process.platform
       }
     }

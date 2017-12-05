@@ -1,14 +1,19 @@
+import appIsDev from 'electron-is-dev'
+
 import config from '../../../main/lib/config'
+import exampleColumns from '../../../resources/columns.example.json'
 
-const columnPrefix = 'column-'
+var state = {}
 
-const state = {
-  columns: config.get('columns').sort((a, b) => a.order - b.order)
+if (!appIsDev) {
+  state = config.get('columns')
+} else {
+  state = exampleColumns.columns
 }
 
 const mutations = {
   setId (state, num, id) {
-    state.columns[num].id = columnPrefix + id
+    state.columns[num].id = 'column-' + id
   },
   setIcon (state, num, newIcon) {
     state.columns[num].icon = newIcon
