@@ -1,6 +1,6 @@
 <template>
   <draggable element='section' class='d-flex' :options='dragOptions' v-model='columns'>
-    <section v-for='column in columns' :key='column.id'>
+    <section v-for='(column, i) in columns' :key='i'>
       <appColumn :icon='column.icon' :title='column.title' :username='column.username' :columnId='column.id' />
     </section>
   </draggable>

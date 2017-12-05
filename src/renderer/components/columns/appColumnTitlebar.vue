@@ -7,7 +7,7 @@
         <v-tooltip bottom>
           <v-toolbar-title slot='activator' v-html='title' />
           <span>
-            @<span v-html='username'></span>
+            @<span v-html='username' />
           </span>
         </v-tooltip>
         <v-spacer />
