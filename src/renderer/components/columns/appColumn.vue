@@ -1,7 +1,7 @@
 <template>
     <section v-bind:style='customColumnStyles' class='appColumn' :id='columnId' transition='scale-transition' origin='center center'>
         <v-spacer :style='"height:" + columnOptions.columnHeaderSpacer + "px;"' />
-        <appColumnList :icon='icon' :title='title' />
+        <appColumnList :icon='icon' :title='title' :username='username'/>
     </section>
 </template>
 
@@ -18,7 +18,7 @@
       appColumnList,
       appTweet
     },
-    props: ['icon', 'title', 'columnId'],
+    props: ['icon', 'title', 'username', 'columnId'],
     data () {
       return {
         columnOptions: settingsStore.state.columnOptions,

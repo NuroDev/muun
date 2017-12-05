@@ -4,7 +4,12 @@
         <v-icon class='draggable-handle'>drag_handle</v-icon>
         <v-spacer />
         <v-icon v-html='icon' />
-        <v-toolbar-title v-html='title' />
+        <v-tooltip bottom>
+          <v-toolbar-title slot='activator' v-html='title' />
+          <span>
+            @<span v-html='username'></span>
+          </span>
+        </v-tooltip>
         <v-spacer />
         <v-btn icon>
             <v-icon>more_vert</v-icon>
@@ -15,7 +20,7 @@
 
 <script>
   export default {
-    props: ['icon', 'title', 'columnId']
+    props: ['icon', 'title', 'username', 'columnId']
   }
 </script>
 

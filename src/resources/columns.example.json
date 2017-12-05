@@ -4,30 +4,35 @@
       "id": "column-0",
       "icon": "home",
       "title": "Home",
+      "username": "username",
       "order": 0
     },
     {
       "id": "column-1",
       "icon": "notifications",
       "title": "Notifications",
+      "username": "username",
       "order": 1
     },
     {
       "id": "column-2",
       "icon": "rss_feed",
       "title": "Activity",
+      "username": "username",
       "order": 2
     },
     {
       "id": "column-3",
       "icon": "person",
       "title": "User",
+      "username": "username",
       "order": 3
     },
     {
       "id": "column-4",
       "icon": "forum",
       "title": "Messages",
+      "username": "username",
       "order": 4
     }
   ]
