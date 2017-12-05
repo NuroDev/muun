@@ -4,7 +4,7 @@
     <v-content>
       <v-container fluid>
         <v-layout row>
-          <appColumnsDraggable />
+          <appColumns v-for='(column, i) in columns' :key='i' :icon='column.icon' :title='column.title' :username='column.username' :columnId='column.id'/>
         </v-layout>
       </v-container>
     </v-content>
@@ -13,18 +13,20 @@
 
 <script>
   import appSidebar from './sidebar/appSidebar'
-  import appColumnsDraggable from './columns/appColumnsDraggable'
+  import appColumns from './columns/appColumns'
 
   import settingsStore from '../store/modules/settings'
+  import columnsStore from '../store/modules/columns'
 
   export default {
     components: {
-      appColumnsDraggable,
+      appColumns,
       appSidebar
     },
     data () {
       return {
-        isDarkTheme: settingsStore.state.theme.isDarkTheme
+        isDarkTheme: settingsStore.state.theme.isDarkTheme,
+        columns: columnsStore.state
       }
     }
   }

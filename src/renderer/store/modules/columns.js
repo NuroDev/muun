@@ -20,13 +20,6 @@ const mutations = {
   },
   setTitle (state, num, newTitle) {
     state.columns[num].title = newTitle
-  },
-  updateColumnsOrder (state, columns) {
-    state.columns = columns.map((column, i) => {
-      column.order = i
-
-      return column
-    })
   }
 }
 
