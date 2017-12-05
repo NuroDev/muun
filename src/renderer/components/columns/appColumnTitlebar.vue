@@ -1,7 +1,7 @@
 <template>
   <v-card class='appColumnTitlebar'>
     <v-toolbar :class='!$vuetify.dark ? "primary" : ""'>
-        <v-icon class='draggable-handle' :class='!$vuetify.dark ? "white--text" : ""'>drag_handle</v-icon>
+        <v-icon :class='!$vuetify.dark ? "white--text draggable-handle" : "draggable-handle"'>drag_handle</v-icon>
         <v-spacer />
         <v-icon v-html='icon' :class='!$vuetify.dark ? "white--text" : ""' />
         <v-tooltip bottom>
