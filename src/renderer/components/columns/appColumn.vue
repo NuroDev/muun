@@ -42,7 +42,7 @@
 
 <style>
   .container {
-    padding: 1px;
+      padding: 0 1px;
   }
   .appColumn {
       height: 100vh;
