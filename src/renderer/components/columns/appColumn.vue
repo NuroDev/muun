@@ -33,7 +33,7 @@
         columnOptions: settingsStore.state.columnOptions,
         customColumnStyles: {
           width: settingsStore.state.columnOptions.columnWidth + 'px',
-          padding: '1px'
+          padding: '0 3px'
         }
       }
     }
