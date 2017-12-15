@@ -6,9 +6,7 @@
               <v-layout row align-center justify-center v-scroll="{target: '#scroll-area'}">
                   <v-flex xs12>
                       <appColumnTitlebar :icon='icon' :title='title' :username='username'/>
-                      <v-list v-for='i in 20' :key='i' style='padding: 0;'>
-                          <appTweet />
-                      </v-list>
+                      <appTweet :forColumn='columnId'/>
                   </v-flex>
               </v-layout>
           </v-container>
