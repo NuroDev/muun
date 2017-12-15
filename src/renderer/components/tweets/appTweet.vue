@@ -1,29 +1,19 @@
 <template>
-  <v-card flat>
-    <v-list three-line>
-      <v-list-group v-for='i in tweets' :value='i.active' :key='i.title'>
 
         <!-- Main tweet card -->
-        <v-list-tile slot='item'>
-          <v-list-tile-avatar :tile='!roundedAvatars'>
-            <img v-bind:src='i.avatar' />
-          </v-list-tile-avatar>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              <span v-html='i.displayName' />
-              <span v-html='i.username' />
-            </v-list-tile-title>
-            <v-list-tile-sub-title :style='tweetTextStyles' v-html='i.text' />
-          </v-list-tile-content>
-          <v-divider />
-        </v-list-tile>
+  <section>
+        <v-card v-for='i in tweets' :value='i.active' :key='i.title'>
 
+          <v-card-text>
+            <img class="wrapping-avatar" v-bind:src='i.avatar' />
+            <h3><span v-html='i.displayName' />   <small><span v-html='i.username' /></small></h3>
+            <p><span  v-html='i.text' /></p>
+          </v-card-text>
+
+        </v-card>
         <!-- Tweet actions tab drop down -->
         <appTweetActions />
-
-      </v-list-group>
-    </v-list>
-  </v-card>
+  </section>
 </template>
 
 <script>
@@ -47,3 +37,22 @@
     }
   }
 </script>
+
+<style>
+  .show-all {
+    -webkit-line-clamp: inherit !important;
+  }
+  .auto-height > .list__tile {
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .wrapping-avatar {
+    float: left;
+  }
+
+  .allow-wrapping-images {
+    flex-direction: row;
+  }
+</style>
