@@ -2,10 +2,10 @@
     <section v-bind:style='customColumnStyles' class='appColumn' :id='columnId' transition='scale-transition' origin='center center'>
         <v-spacer :style='"height:" + columnOptions.columnHeaderSpacer + "px;"' />
         <v-card>
+          <appColumnTitlebar :icon='icon' :title='title' :username='username'/>
           <v-container class="appColumn scroll-y pt-0" id="scroll-area">
               <v-layout row align-center justify-center v-scroll="{target: '#scroll-area'}">
                   <v-flex xs12>
-                      <appColumnTitlebar :icon='icon' :title='title' :username='username'/>
                       <appTweet :forColumn='columnId'/>
                   </v-flex>
               </v-layout>
