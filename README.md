@@ -29,18 +29,18 @@ $ cd muun
 ```
 ### Setting up credentials.json
 There is no central authentication server yet so each development environment will need it's own Twitter Application for testing integration.
-* Navigate to https://apps.twitter.com/
-* Click "Create New App"
-* A naming convention of [DEV] Muun - YourTwitterUsername is recommended for name, description can be whatever you want and the website should link to your personal fork on GitHub. You don't need to configure callback URL
-* Click on the app you have just created and navigate to "Keys and Access Tokens"
-* Within "Application Settings" modify Access Levels to "Read, Write and Access direct messages" and save changes
-* Within that "Keys and Access Tokens" page click "Create my access token"
-* Copy `credentials.example.json` to `credentials.json` within the `src/resources` folder
-* Fill in the `credentials.json` with
-** Consumer Key (API Key) -> `consumerPublic`
-** Consumer Secret (API Secret) -> `consumerSecret`
-** Access Token -> `accessPublic`
-** Access Token Secret -> `accessSecret`
+1. Navigate to https://apps.twitter.com/
+2. Click "Create New App"
+3. A naming convention of [DEV] Muun - YourTwitterUsername is recommended for name, description can be whatever you want and the website should link to your personal fork on GitHub. You don't need to configure callback URL
+4. Click on the app you have just created and navigate to "Keys and Access Tokens"
+5. Within "Application Settings" modify Access Levels to "Read, Write and Access direct messages" and save changes
+6. Within that "Keys and Access Tokens" page click "Create my access token"
+7. Copy `credentials.example.json` to `credentials.json` within the `src/resources` folder
+8. Fill in the `credentials.json` with:
+    * Consumer Key (API Key) -> `consumerPublic`
+    * Consumer Secret (API Secret) -> `consumerSecret`
+    * Access Token -> `accessPublic`
+    * Access Token Secret -> `accessSecret`
 
 Running:
 ```
