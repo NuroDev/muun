@@ -1,9 +1,8 @@
-import NodeTwitterApi from 'node-twitter-api'
 import appIsDev from 'electron-is-dev'
 
-import config from './config'
 import devCredentials from '../../resources/credentials.json'
 import prodCredentials from '../../renderer/store/modules/credentials'
+import Twitter from 'twitter'
 
 var credentials = {}
 
@@ -13,19 +12,12 @@ if (!appIsDev) {
   credentials = devCredentials.credentials
 }
 
-const Twitter = new NodeTwitterApi({
-  consumerKey: credentials.consumerPublic,
-  consumerSecret: credentials.consumerSecret,
-  callback: credentials.callbackURL
+const twitter = new Twitter({
+  consumer_key: credentials.consumerPublic,
+  consumer_secret: credentials.consumerSecret,
+  access_token_key: credentials.accessPublic,
+  access_token_secret: credentials.accessSecret
 })
 
-Twitter.getRequestToken(function (error, requestToken, requestTokenSecret, results) {
-  if (error) {
-    console.log('Error getting OAuth request token: ' + error)
-  } else {
-    config.set('credentials.accessPublic', requestToken)
-    config.set('credentials.accessSecret', requestTokenSecret)
-  }
-})
 
-export default Twitter
+export default twitter
