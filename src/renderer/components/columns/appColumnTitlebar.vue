@@ -27,6 +27,9 @@
 <style>
   .appColumnTitlebar {
     z-index: 1;
+      position: sticky;
+      position: -webkit-sticky; /* Safari Compat */
+      top: 0;
   }
   .appColumnTitlebar .draggable-handle {
     cursor: move;
