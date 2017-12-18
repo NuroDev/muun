@@ -11,6 +11,7 @@
           </span>
         </v-tooltip>
         <v-spacer />
+        <v-progress-circular v-if="loading" indeterminate color="primary"></v-progress-circular>
         <v-btn icon>
             <v-icon :class='!$vuetify.dark ? "white--text" : ""'>more_vert</v-icon>
         </v-btn>
@@ -20,7 +21,7 @@
 
 <script>
   export default {
-    props: ['icon', 'title', 'username', 'columnId']
+    props: ['icon', 'title', 'username', 'columnId', 'loading']
   }
 </script>
 

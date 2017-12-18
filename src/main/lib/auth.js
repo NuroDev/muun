@@ -19,5 +19,4 @@ const twitter = new Twitter({
   access_token_secret: credentials.accessSecret
 })
 
-
 export default twitter
