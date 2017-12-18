@@ -38,7 +38,7 @@
     },
     data () {
       return {
-        tweets: tweetsStore.state.tweets,
+        tweets: tweetsStore.state.getTweets(40),
         roundedAvatars: settingsStore.state.tweetOptions.roundedAvatars,
         tweetTextStyles: {
           fontSize: settingsStore.state.tweetOptions.fontSize + 'px'
