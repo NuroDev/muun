@@ -1,44 +1,36 @@
 <template>
-  <v-card flat>
-    <v-list three-line>
-      <v-list-group v-for='i in tweets' :value='i.active' :key='i.title'>
 
         <!-- Main tweet card -->
-        <v-list-tile slot='item'>
-          <v-list-tile-avatar :tile='!roundedAvatars'>
-            <img v-bind:src='i.avatar' />
-          </v-list-tile-avatar>
-          <v-list-tile-content>
-            <v-list-tile-title>
-              <span v-html='i.displayName' />
-              <span v-html='i.username' />
-            </v-list-tile-title>
-            <v-list-tile-sub-title :style='tweetTextStyles' v-html='i.text' />
-          </v-list-tile-content>
-          <v-divider />
-        </v-list-tile>
+        <v-card :value='tweet.active' :key='tweet.title'  class="column-card">
 
+          <v-card-title class="tweet-title">
+            <img class="wrapping-avatar" v-bind:src='tweet.avatar'/>
+            <h3 class="name-and-username"><span v-html='tweet.displayName' /><br/><small><span v-html='tweet.username' /></small></h3>
+          </v-card-title>
+          <v-card-text class="tweet-text">
+            <p><span  v-html='tweet.text' /></p>
+            <!-- TODO <app-tweet-actions /> ~ Zed 16/12/17-->
+          </v-card-text>
+          <v-card-media v-if="tweet.attachment" :src="tweet.attachment.img.src" height="175px" class="tweet-media"/>
+          <!-- TODO support multiple attachments - need to update tweet model so attachment is array ~ Zed 16/12/17 -->
+          <v-divider/>
+
+        </v-card>
         <!-- Tweet actions tab drop down -->
-        <appTweetActions />
-
-      </v-list-group>
-    </v-list>
-  </v-card>
 </template>
 
 <script>
   import appTweetActions from './appTweetActions'
 
-  import tweetsStore from '../../store/modules/tweets'
   import settingsStore from '../../store/modules/settings'
 
   export default {
     components: {
       appTweetActions
     },
+    props: ['tweet'],
     data () {
       return {
-        tweets: tweetsStore.state.getTweets(40),
         roundedAvatars: settingsStore.state.tweetOptions.roundedAvatars,
         tweetTextStyles: {
           fontSize: settingsStore.state.tweetOptions.fontSize + 'px'
@@ -47,3 +39,37 @@
     }
   }
 </script>
+
+<style>
+
+  .column-card {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .wrapping-avatar {
+    border-radius: 50%;
+    padding-right: 15px;
+    width: auto;
+  }
+
+  .tweet-title {
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 5px;
+    height: 48px;
+  }
+
+  .tweet-text {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .tweet-media {
+    margin-bottom: 5px; /* So the separator is still visible */
+  }
+
+  .name-and-username {
+    -webkit-line-clamp: 1;
+  }
+</style>
