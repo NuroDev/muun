@@ -11,7 +11,7 @@
                 <v-card-actions>
 
                     <v-spacer />
-                    <v-btn flat @click.native="show_error = !show">
+                    <v-btn flat @click.native="show_error = !show_error">
                         More details
                         <v-icon>{{ show_error ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}</v-icon>
                     </v-btn>
@@ -36,7 +36,7 @@
 <script>
   import appColumnTitlebar from './appColumnTitlebar'
   import appTweet from '../tweets/appTweet'
-  // import tweetsStore from '../../store/modules/tweets'
+  import tweetsStore from '../../store/modules/tweets'
   import twitter from '../../../main/lib/auth'
 
   import settingsStore from '../../store/modules/settings'
@@ -72,27 +72,34 @@
       fetchData () {
         this.error = this.tweets = null
         this.loading = true
-        twitter.get('statuses/home_timeline', {}, (error, tweets, response) => {
-          if (!error) {
-            var processedTweets = []
-            var tweet = null
-            for (tweet of tweets) {
-              console.log(tweet)
-              processedTweets.push({
-                id: tweet.id,
-                text: tweet.text,
-                displayName: tweet.user.name,
-                username: tweet.user.screen_name,
-                avatar: tweet.user.profile_image_url_https
-              })
+        if (this.columnId === 'column-0') {
+          twitter.get('statuses/home_timeline', {}, (error, tweets, response) => {
+            if (!error) {
+              var processedTweets = []
+              var tweet = null
+              for (tweet of tweets) {
+                console.log(tweet)
+                processedTweets.push({
+                  id: tweet.id,
+                  text: tweet.text,
+                  displayName: tweet.user.name,
+                  username: tweet.user.screen_name,
+                  avatar: tweet.user.profile_image_url_https
+                })
+              }
+              this.tweets = processedTweets
+              this.loading = false
+            } else {
+              this.error = JSON.stringify(error)
+              this.loading = false
             }
-            this.tweets = processedTweets
+          })
+        } else {
+          setTimeout(() => {
+            this.tweets = tweetsStore.state.getTweets(40)
             this.loading = false
-          } else {
-            this.error = JSON.stringify(error)
-            this.loading = false
-          }
-        })
+          }, 2000)
+        }
       }
     }
   }
