@@ -37,7 +37,7 @@
   import appColumnTitlebar from './appColumnTitlebar'
   import appTweet from '../tweets/appTweet'
   import tweetsStore from '../../store/modules/tweets'
-  import twitter from '../../../main/lib/auth'
+  import homeTimeline from '../../../app/twitter/streams/home_timeline'
 
   import settingsStore from '../../store/modules/settings'
 
@@ -65,7 +65,15 @@
         loading: true,
         post: null,
         error: null,
-        show_error: false
+        show_error: false,
+        homeTimeline: homeTimeline.newTimeline((err, tweets) => {
+          this.loading = false
+          if (err) {
+            this.error = JSON.stringify(err)
+          } else {
+            this.tweets = tweets
+          }
+        })
       }
     },
     methods: {
@@ -73,27 +81,7 @@
         this.error = this.tweets = null
         this.loading = true
         if (this.columnId === 'column-0') {
-          twitter.get('statuses/home_timeline', {}, (error, tweets, response) => {
-            if (!error) {
-              var processedTweets = []
-              var tweet = null
-              for (tweet of tweets) {
-                console.log(tweet)
-                processedTweets.push({
-                  id: tweet.id,
-                  text: tweet.text,
-                  displayName: tweet.user.name,
-                  username: tweet.user.screen_name,
-                  avatar: tweet.user.profile_image_url_https
-                })
-              }
-              this.tweets = processedTweets
-              this.loading = false
-            } else {
-              this.error = JSON.stringify(error)
-              this.loading = false
-            }
-          })
+          this.homeTimeline.load()
         } else {
           setTimeout(() => {
             this.tweets = tweetsStore.state.getTweets(40)
