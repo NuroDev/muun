@@ -1,5 +1,5 @@
 import tweetModel from '../models/tweet'
-import userTransformer from 'user'
+import userTransformer from './user'
 
 function convertTweet (tweet) {
   return tweetModel.tweet(
@@ -43,8 +43,7 @@ function convertToNativeMedia (entitiesExtended) {
 
 function convertTweets (tweets) {
   let toReturn = []
-  var tweet = null
-  for (tweet in tweets) {
+  for (let tweet of tweets) {
     toReturn.push(convertTweet(tweet))
   }
   return toReturn

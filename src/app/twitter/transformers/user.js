@@ -10,8 +10,7 @@ function convertUser (user) {
 
 function convertUsers (users) {
   let toReturn = []
-  var user = null
-  for (user in users) {
+  for (let user of users) {
     toReturn.push(convertUser(user))
   }
   return toReturn
