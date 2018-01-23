@@ -48,8 +48,8 @@
   }
 
   .wrapping-avatar {
-    border-radius: 50%;
-    padding-right: 15px;
+    border-radius: 100%;
+    margin-right: 15px;
     width: auto;
   }
 
