@@ -4,8 +4,8 @@
         <v-card>
           <appColumnTitlebar :icon='icon' :title='title' :username='username' :loading='loading'/>
           <appColumnError :error='error'/>
-          <v-container class="appColumn scroll-y pt-0" id="scroll-area">
-              <v-layout row align-center justify-center v-scroll="{target: '#scroll-area'}">
+          <v-container class="appColumn scroll-y pt-0" :id="'scroll-for-' + columnId">
+              <v-layout row align-center justify-center v-scroll="{target: '#scroll-for-' + this.columnId, callback: this.onScroll}">
                   <v-flex xs12>
                       <appTweet v-for='i in tweets' :tweet='i' :key="i.id"/>
                   </v-flex>
@@ -49,6 +49,7 @@
         loading: true,
         post: null,
         error: null,
+        notDummy: false,
         show_error: false,
         homeTimeline: homeTimeline.newTimeline((err, tweets) => {
           this.loading = false
@@ -65,12 +66,29 @@
         this.error = this.tweets = null
         this.loading = true
         if (this.columnId === 'column-0') {
+          this.notDummy = true
           this.homeTimeline.load()
         } else {
           setTimeout(() => {
             this.tweets = tweetsStore.state.getTweets(40)
             this.loading = false
-          }, 2000)
+          }, 4000)
+        }
+      },
+      onScroll (e) {
+        let distanceFromBottom = e.target.scrollHeight - e.target.scrollTop - e.target.clientHeight
+        if (distanceFromBottom <= 100 && !this.loading) {
+          if (this.notDummy) {
+            this.loading = true
+            this.homeTimeline.loadOlder(20)
+          } else {
+            console.log('LOADING')
+            this.loading = true
+            setTimeout(() => {
+              this.tweets = this.tweets.concat(tweetsStore.state.getTweets(40))
+              this.loading = false
+            }, 500)
+          }
         }
       }
     }
