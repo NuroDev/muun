@@ -31,7 +31,7 @@ function newTimeline (callback) {
     if (tweets.length < 1) {
       return { id: null }
     }
-    return tweets[tweets.length]
+    return tweets[tweets.length - 1]
   }
 
   function newestTweet () {
@@ -42,11 +42,11 @@ function newTimeline (callback) {
   }
 
   function loadOlder (amount) {
-    load(amount, null, oldestTweet().id)
+    load(amount, undefined, oldestTweet().id)
   }
 
   function loadNewer (amount) {
-    load(amount, newestTweet().id, null)
+    load(amount, newestTweet().id, undefined)
   }
 
   return {
