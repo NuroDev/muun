@@ -4,8 +4,8 @@
         <v-card :value='tweet.active' :key='tweet.title'  class="column-card">
 
           <v-card-title class="tweet-title">
-            <img class="wrapping-avatar" v-bind:src='tweet.avatar'/>
-            <h3 class="name-and-username"><span v-html='tweet.displayName' /><br/><small><span v-html='tweet.username' /></small></h3>
+            <img class="wrapping-avatar" v-bind:src='tweet.sender.avatarSrc'/>
+            <h3 class="no-expansion"><span class="one-line" v-html='tweet.sender.displayName' /><br/><small>@<span class="one-line" v-html='tweet.sender.twitterHandle' /></small></h3>
           </v-card-title>
           <v-card-text class="tweet-text">
             <p><span  v-html='tweet.text' /></p>
@@ -48,8 +48,9 @@
   }
 
   .wrapping-avatar {
-    border-radius: 100%;
-    margin-right: 15px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
     width: auto;
   }
 
@@ -58,6 +59,7 @@
     padding-top: 0;
     padding-bottom: 5px;
     height: 48px;
+    flex-wrap: nowrap;
   }
 
   .tweet-text {
@@ -69,7 +71,11 @@
     margin-bottom: 5px; /* So the separator is still visible */
   }
 
-  .name-and-username {
+  .one-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: none;
+    white-space: nowrap;
     -webkit-line-clamp: 1;
   }
 </style>
