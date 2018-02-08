@@ -5,6 +5,12 @@
       "icon": "home",
       "title": "Home",
       "username": "username",
+      "supplier": {
+        "name": "timelines/home",
+        "data": {
+          "for_user": ""
+        }
+      },
       "order": 0
     },
     {
@@ -12,6 +18,7 @@
       "icon": "notifications",
       "title": "Notifications",
       "username": "username",
+      "supplier": "dummy",
       "order": 1
     },
     {
@@ -19,6 +26,7 @@
       "icon": "rss_feed",
       "title": "Activity",
       "username": "username",
+      "supplier": "dummy",
       "order": 2
     },
     {
@@ -26,6 +34,7 @@
       "icon": "person",
       "title": "User",
       "username": "username",
+      "supplier": "dummy",
       "order": 3
     },
     {
@@ -33,6 +42,7 @@
       "icon": "forum",
       "title": "Messages",
       "username": "username",
+      "supplier": "dummy",
       "order": 4
     }
   ]

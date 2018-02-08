@@ -22,7 +22,7 @@
 <script>
   import appTweetActions from './appTweetActions'
 
-  import settingsStore from '../../store/modules/settings'
+  import settingsStore from '../../../../store/modules/settings'
 
   export default {
     components: {

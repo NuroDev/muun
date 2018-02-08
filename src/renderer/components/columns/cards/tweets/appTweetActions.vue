@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import settingsStore from '../../store/modules/settings'
+  import settingsStore from '../../../../store/modules/settings'
 
   export default {
     props: ['item'],
