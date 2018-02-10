@@ -20,7 +20,7 @@
   import appColumnTitlebar from './appColumnTitlebar'
   import appTweet from './cards/tweets/appTweet'
   import tweetsStore from '../../store/modules/tweets'
-  import homeTimeline from '../../../app/twitter/streams/home_timeline'
+  import suppliers from '../../../app/twitter/suppliers/suppliers'
 
   import settingsStore from '../../store/modules/settings'
 
@@ -37,7 +37,7 @@
       // call again the method if the route changes
       '$route': 'fetchData'
     },
-    props: ['icon', 'title', 'username', 'columnId'],
+    props: ['icon', 'title', 'username', 'columnId', 'supplier'],
     data () {
       return {
         columnOptions: settingsStore.state.columnOptions,
@@ -51,7 +51,7 @@
         error: null,
         notDummy: false,
         show_error: false,
-        homeTimeline: homeTimeline.newTimeline((err, tweets) => {
+        supplier: suppliers.provide(this.supplier, (err, tweets) => {
           this.loading = false
           if (err) {
             this.error = JSON.stringify(err)

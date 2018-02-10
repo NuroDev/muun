@@ -13,5 +13,5 @@ function fetchSupplier (supplier, callback) {
 }
 
 export default {
-  provider: fetchSupplier
+  provide: fetchSupplier
 }
