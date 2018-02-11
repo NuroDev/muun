@@ -20,7 +20,7 @@
   import appColumnTitlebar from './appColumnTitlebar'
   import appTweet from './cards/tweets/appTweet'
   import tweetsStore from '../../store/modules/tweets'
-  import homeTimeline from '../../../app/twitter/streams/home_timeline'
+  import homeTimeline from '../../../api/twitter/streams/home_timeline'
 
   import settingsStore from '../../store/modules/settings'
 
