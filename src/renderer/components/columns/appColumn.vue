@@ -19,7 +19,6 @@
   import appColumnError from './appColumnError'
   import appColumnTitlebar from './appColumnTitlebar'
   import appTweet from './cards/tweets/appTweet'
-  import tweetsStore from '../../store/modules/tweets'
   import suppliers from '../../../api/twitter/suppliers/suppliers'
 
   import settingsStore from '../../store/modules/settings'
@@ -37,7 +36,7 @@
       // call again the method if the route changes
       '$route': 'fetchData'
     },
-    props: ['icon', 'title', 'username', 'columnId', 'supplier'],
+    props: ['icon', 'title', 'username', 'columnId', 'supplierSettings'],
     data () {
       return {
         columnOptions: settingsStore.state.columnOptions,
@@ -49,9 +48,8 @@
         loading: true,
         post: null,
         error: null,
-        notDummy: false,
         show_error: false,
-        supplier: suppliers.provide(this.supplier, (err, tweets) => {
+        supplier: suppliers.provide(this.supplierSettings, (err, tweets) => {
           this.loading = false
           if (err) {
             this.error = JSON.stringify(err)
@@ -65,30 +63,13 @@
       fetchData () {
         this.error = this.tweets = null
         this.loading = true
-        if (this.columnId === 'column-0') {
-          this.notDummy = true
-          this.homeTimeline.load()
-        } else {
-          setTimeout(() => {
-            this.tweets = tweetsStore.state.getTweets(40)
-            this.loading = false
-          }, 4000)
-        }
+        this.supplier.load()
       },
       onScroll (e) {
         let distanceFromBottom = e.target.scrollHeight - e.target.scrollTop - e.target.clientHeight
         if (distanceFromBottom <= 100 && !this.loading) {
-          if (this.notDummy) {
-            this.loading = true
-            this.homeTimeline.loadOlder(20)
-          } else {
-            console.log('LOADING')
-            this.loading = true
-            setTimeout(() => {
-              this.tweets = this.tweets.concat(tweetsStore.state.getTweets(40))
-              this.loading = false
-            }, 500)
-          }
+          this.loading = true
+          this.supplier.loadOlder(20)
         }
       }
     }

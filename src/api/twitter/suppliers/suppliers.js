@@ -1,14 +1,17 @@
-import homeTimeline from '../streams/home_timeline'
+import timelines from './timelines'
+import testSuppliers from './test_suppliers'
 
 let suppliers = {}
-suppliers['timelines/home'] = homeTimeline.newTimeline
+suppliers['timelines/home'] = timelines.newTimeline
+suppliers['_test/dummy-default'] = testSuppliers.testTweetData
 
 function fetchSupplier (supplier, callback) {
   if ((typeof supplier) === 'string') {
-    return suppliers[supplier]
+    return suppliers[supplier]({name: supplier}, callback)
   }
-  if (supplier.id) {
-    return suppliers[supplier.id].for(supplier)
+  if (supplier.name) {
+    let newTimeline = suppliers[supplier.name](supplier, callback)
+    return newTimeline
   }
 }
 
