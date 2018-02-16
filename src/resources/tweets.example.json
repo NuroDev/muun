@@ -4,7 +4,8 @@
     "avatarSrc": "https://robohash.org/veroenimnihil.bmp?size=100x100&set=set1",
     "displayName": "Tris Dowty"
   },
-  "text": "tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci"
+  "text": "tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "gwartonby1",
@@ -16,35 +17,40 @@
     "img": {
       "src": "http://dummyimage.com/1274x770.bmp/5fa2dd/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "shoovart2",
     "avatarSrc": "https://robohash.org/estaperiamaliquam.jpg?size=100x100&set=set1",
     "displayName": "Sumner Hoovart"
   },
-  "text": "urna ut tellus nulla ut erat id mauris vulputate elementum nullam"
+  "text": "urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rverdon3",
     "avatarSrc": "https://robohash.org/etsuscipitqui.jpg?size=100x100&set=set1",
     "displayName": "Rancell Verdon"
   },
-  "text": "habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia"
+  "text": "habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "mgavey4",
     "avatarSrc": "https://robohash.org/estomnissaepe.jpg?size=100x100&set=set1",
     "displayName": "Mack Gavey"
   },
-  "text": "donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at"
+  "text": "donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rcoundley5",
     "avatarSrc": "https://robohash.org/dolorcumquetemporibus.jpg?size=100x100&set=set1",
     "displayName": "Ramona Coundley"
   },
-  "text": "tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa"
+  "text": "tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "dbromfield6",
@@ -56,7 +62,8 @@
     "img": {
       "src": "http://dummyimage.com/698x763.bmp/5fa2dd/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "enorthin7",
@@ -68,21 +75,24 @@
     "img": {
       "src": "http://dummyimage.com/213x233.bmp/dddddd/000000"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rcaltera8",
     "avatarSrc": "https://robohash.org/isteconsequatursint.png?size=100x100&set=set1",
     "displayName": "Rolando Caltera"
   },
-  "text": "donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna"
+  "text": "donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "gpinkie9",
     "avatarSrc": "https://robohash.org/maximererumaut.jpg?size=100x100&set=set1",
     "displayName": "Gannie Pinkie"
   },
-  "text": "suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus"
+  "text": "suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rdealya",
@@ -94,28 +104,32 @@
     "img": {
       "src": "http://dummyimage.com/1440x154.jpg/dddddd/000000"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "lfitchettb",
     "avatarSrc": "https://robohash.org/sintestet.jpg?size=100x100&set=set1",
     "displayName": "Lorilee Fitchett"
   },
-  "text": "rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in"
+  "text": "rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rwattc",
     "avatarSrc": "https://robohash.org/voluptatibusasperioressunt.png?size=100x100&set=set1",
     "displayName": "Rollin Watt"
   },
-  "text": "phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar"
+  "text": "phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "marthursd",
     "avatarSrc": "https://robohash.org/placeatinciduntquidem.png?size=100x100&set=set1",
     "displayName": "Miner Arthurs"
   },
-  "text": "ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum"
+  "text": "ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rdrucee",
@@ -127,28 +141,32 @@
     "img": {
       "src": "http://dummyimage.com/593x719.jpg/dddddd/000000"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "pgendersf",
     "avatarSrc": "https://robohash.org/voluptatemvoluptatibusconsequatur.bmp?size=100x100&set=set1",
     "displayName": "Paten Genders"
   },
-  "text": "erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget"
+  "text": "erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "atrehearneg",
     "avatarSrc": "https://robohash.org/sequidoloremdolor.jpg?size=100x100&set=set1",
     "displayName": "Annice Trehearne"
   },
-  "text": "ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac"
+  "text": "ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jambroseh",
     "avatarSrc": "https://robohash.org/etperferendisnihil.jpg?size=100x100&set=set1",
     "displayName": "Julio Ambrose"
   },
-  "text": "lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec"
+  "text": "lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cdelosi",
@@ -160,7 +178,8 @@
     "img": {
       "src": "http://dummyimage.com/1173x932.png/5fa2dd/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cforesj",
@@ -172,28 +191,32 @@
     "img": {
       "src": "http://dummyimage.com/1431x1060.jpg/cc0000/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "tnobletk",
     "avatarSrc": "https://robohash.org/omnisutmagnam.jpg?size=100x100&set=set1",
     "displayName": "Townsend Noblet"
   },
-  "text": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis"
+  "text": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "sscapensl",
     "avatarSrc": "https://robohash.org/ipsamipsasit.jpg?size=100x100&set=set1",
     "displayName": "Sholom Scapens"
   },
-  "text": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus"
+  "text": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jpirniem",
     "avatarSrc": "https://robohash.org/easequidistinctio.jpg?size=100x100&set=set1",
     "displayName": "Juliet Pirnie"
   },
-  "text": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor"
+  "text": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rcordeletn",
@@ -205,21 +228,24 @@
     "img": {
       "src": "http://dummyimage.com/434x326.bmp/cc0000/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cthorogoodo",
     "avatarSrc": "https://robohash.org/quidemrepudiandaenatus.bmp?size=100x100&set=set1",
     "displayName": "Coral Thorogood"
   },
-  "text": "nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi"
+  "text": "nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ntruderp",
     "avatarSrc": "https://robohash.org/oditreiciendisaccusantium.jpg?size=100x100&set=set1",
     "displayName": "Nealon Truder"
   },
-  "text": "tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at"
+  "text": "tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rgreenlandq",
@@ -231,14 +257,16 @@
     "img": {
       "src": "http://dummyimage.com/613x566.bmp/5fa2dd/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "dkernermannr",
     "avatarSrc": "https://robohash.org/dignissimosvoluptatibussit.jpg?size=100x100&set=set1",
     "displayName": "Donna Kernermann"
   },
-  "text": "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie"
+  "text": "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rruhbens",
@@ -250,28 +278,32 @@
     "img": {
       "src": "http://dummyimage.com/1282x903.jpg/dddddd/000000"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "dloundst",
     "avatarSrc": "https://robohash.org/adipisciullamnatus.bmp?size=100x100&set=set1",
     "displayName": "Dulsea Lounds"
   },
-  "text": "purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum"
+  "text": "purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "kdeu",
     "avatarSrc": "https://robohash.org/autundeut.bmp?size=100x100&set=set1",
     "displayName": "Kelsy de Juares"
   },
-  "text": "ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc"
+  "text": "ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "glaightv",
     "avatarSrc": "https://robohash.org/vitaequiarerum.jpg?size=100x100&set=set1",
     "displayName": "Godart Laight"
   },
-  "text": "nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est"
+  "text": "nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "hdunderdalew",
@@ -283,21 +315,24 @@
     "img": {
       "src": "http://dummyimage.com/1569x490.bmp/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "clengthornx",
     "avatarSrc": "https://robohash.org/sintquaeratdelectus.png?size=100x100&set=set1",
     "displayName": "Chen Lengthorn"
   },
-  "text": "a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio"
+  "text": "a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "abollandsy",
     "avatarSrc": "https://robohash.org/sedmollitiaadipisci.jpg?size=100x100&set=set1",
     "displayName": "Alon Bollands"
   },
-  "text": "eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu"
+  "text": "eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ohammentsz",
@@ -309,91 +344,104 @@
     "img": {
       "src": "http://dummyimage.com/106x110.bmp/cc0000/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "trojas10",
     "avatarSrc": "https://robohash.org/idnonnulla.bmp?size=100x100&set=set1",
     "displayName": "Tobe Rojas"
   },
-  "text": "volutpat erat quisque erat eros viverra eget congue eget semper"
+  "text": "volutpat erat quisque erat eros viverra eget congue eget semper",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "mespinheira11",
     "avatarSrc": "https://robohash.org/quamiustorepudiandae.bmp?size=100x100&set=set1",
     "displayName": "Moina Espinheira"
   },
-  "text": "duis aliquam convallis nunc proin at turpis a pede posuere nonummy"
+  "text": "duis aliquam convallis nunc proin at turpis a pede posuere nonummy",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "khavers12",
     "avatarSrc": "https://robohash.org/eoscumquia.bmp?size=100x100&set=set1",
     "displayName": "Ki Havers"
   },
-  "text": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo"
+  "text": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "swhittuck13",
     "avatarSrc": "https://robohash.org/esseaccusantiumsit.bmp?size=100x100&set=set1",
     "displayName": "Solomon Whittuck"
   },
-  "text": "eu massa donec dapibus duis at velit eu est congue elementum in"
+  "text": "eu massa donec dapibus duis at velit eu est congue elementum in",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "kklaaasen14",
     "avatarSrc": "https://robohash.org/quivoluptasiusto.bmp?size=100x100&set=set1",
     "displayName": "Kathie Klaaasen"
   },
-  "text": "blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc"
+  "text": "blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "kadamovitz15",
     "avatarSrc": "https://robohash.org/magnamdoloremquenumquam.png?size=100x100&set=set1",
     "displayName": "Katharina Adamovitz"
   },
-  "text": "turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit"
+  "text": "turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rriccard16",
     "avatarSrc": "https://robohash.org/quasiblanditiisvoluptatum.bmp?size=100x100&set=set1",
     "displayName": "Rube Riccard"
   },
-  "text": "sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit"
+  "text": "sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cgimeno17",
     "avatarSrc": "https://robohash.org/quilaboriosamomnis.jpg?size=100x100&set=set1",
     "displayName": "Colin Gimeno"
   },
-  "text": "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit"
+  "text": "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "aopy18",
     "avatarSrc": "https://robohash.org/etdoloremomnis.jpg?size=100x100&set=set1",
     "displayName": "Ashleigh Opy"
   },
-  "text": "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet"
+  "text": "cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ccheco19",
     "avatarSrc": "https://robohash.org/accusamusvoluptatesab.png?size=100x100&set=set1",
     "displayName": "Carlin Checo"
   },
-  "text": "rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget"
+  "text": "rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jload1a",
     "avatarSrc": "https://robohash.org/rerumquaeeius.jpg?size=100x100&set=set1",
     "displayName": "Julieta Load"
   },
-  "text": "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus"
+  "text": "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "dblackham1b",
     "avatarSrc": "https://robohash.org/utconsequunturquia.png?size=100x100&set=set1",
     "displayName": "Deerdre Blackham"
   },
-  "text": "aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat"
+  "text": "aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "growaszkiewicz1c",
@@ -405,14 +453,16 @@
     "img": {
       "src": "http://dummyimage.com/749x969.png/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jallitt1d",
     "avatarSrc": "https://robohash.org/ipsameumvoluptatem.png?size=100x100&set=set1",
     "displayName": "Jessamyn Allitt"
   },
-  "text": "magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis"
+  "text": "magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cburnip1e",
@@ -424,21 +474,24 @@
     "img": {
       "src": "http://dummyimage.com/1354x124.bmp/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rivchenko1f",
     "avatarSrc": "https://robohash.org/aliquamminussit.png?size=100x100&set=set1",
     "displayName": "Ruddie Ivchenko"
   },
-  "text": "metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum"
+  "text": "metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "nguterson1g",
     "avatarSrc": "https://robohash.org/sitarchitectonisi.png?size=100x100&set=set1",
     "displayName": "Ned Guterson"
   },
-  "text": "morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta"
+  "text": "morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "kthombleson1h",
@@ -450,14 +503,16 @@
     "img": {
       "src": "http://dummyimage.com/1709x1033.png/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "estearnes1i",
     "avatarSrc": "https://robohash.org/eniminaccusantium.jpg?size=100x100&set=set1",
     "displayName": "Emiline Stearnes"
   },
-  "text": "tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula"
+  "text": "tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "abroscombe1j",
@@ -469,7 +524,8 @@
     "img": {
       "src": "http://dummyimage.com/624x790.png/cc0000/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "tcopper1k",
@@ -481,7 +537,8 @@
     "img": {
       "src": "http://dummyimage.com/1298x747.jpg/5fa2dd/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "vkobelt1l",
@@ -493,7 +550,8 @@
     "img": {
       "src": "http://dummyimage.com/1366x1019.jpg/cc0000/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "gainslie1m",
@@ -505,7 +563,8 @@
     "img": {
       "src": "http://dummyimage.com/1916x362.bmp/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "fwinckworth1n",
@@ -517,14 +576,16 @@
     "img": {
       "src": "http://dummyimage.com/1615x208.png/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jchisolm1o",
     "avatarSrc": "https://robohash.org/etnamrerum.bmp?size=100x100&set=set1",
     "displayName": "Janetta Chisolm"
   },
-  "text": "eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus"
+  "text": "eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "mscarlon1p",
@@ -536,7 +597,8 @@
     "img": {
       "src": "http://dummyimage.com/638x764.bmp/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "bteodorski1q",
@@ -548,70 +610,80 @@
     "img": {
       "src": "http://dummyimage.com/952x418.jpg/cc0000/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rlinder1r",
     "avatarSrc": "https://robohash.org/minusbeataesint.jpg?size=100x100&set=set1",
     "displayName": "Rem Linder"
   },
-  "text": "congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci"
+  "text": "congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ldoull1s",
     "avatarSrc": "https://robohash.org/accusamusadipisciomnis.png?size=100x100&set=set1",
     "displayName": "Lacie Doull"
   },
-  "text": "non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue"
+  "text": "non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ppadefield1t",
     "avatarSrc": "https://robohash.org/noniustoet.bmp?size=100x100&set=set1",
     "displayName": "Paco Padefield"
   },
-  "text": "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam"
+  "text": "elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ibradneck1u",
     "avatarSrc": "https://robohash.org/doloreipsumodit.jpg?size=100x100&set=set1",
     "displayName": "Ingaberg Bradneck"
   },
-  "text": "consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor"
+  "text": "consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "tnazareth1v",
     "avatarSrc": "https://robohash.org/dictadolorumdolorem.bmp?size=100x100&set=set1",
     "displayName": "Timothee Nazareth"
   },
-  "text": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget"
+  "text": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "nobrian1w",
     "avatarSrc": "https://robohash.org/temporautexplicabo.png?size=100x100&set=set1",
     "displayName": "Noland O'Brian"
   },
-  "text": "imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit"
+  "text": "imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "chealey1x",
     "avatarSrc": "https://robohash.org/architectoullamodit.png?size=100x100&set=set1",
     "displayName": "Chicky Healey"
   },
-  "text": "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu"
+  "text": "mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "lgoodhay1y",
     "avatarSrc": "https://robohash.org/animiautsoluta.png?size=100x100&set=set1",
     "displayName": "Ludvig Goodhay"
   },
-  "text": "dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum"
+  "text": "dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "lodoherty1z",
     "avatarSrc": "https://robohash.org/autetsed.bmp?size=100x100&set=set1",
     "displayName": "Lars O'Doherty"
   },
-  "text": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac"
+  "text": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "emungham20",
@@ -623,119 +695,136 @@
     "img": {
       "src": "http://dummyimage.com/208x583.png/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "wquantrell21",
     "avatarSrc": "https://robohash.org/omnisvelquo.jpg?size=100x100&set=set1",
     "displayName": "Walsh Quantrell"
   },
-  "text": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et"
+  "text": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "smulcock22",
     "avatarSrc": "https://robohash.org/placeatodioquis.bmp?size=100x100&set=set1",
     "displayName": "Stavro Mulcock"
   },
-  "text": "magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient"
+  "text": "magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "tinsoll23",
     "avatarSrc": "https://robohash.org/consecteturataut.png?size=100x100&set=set1",
     "displayName": "Thorstein Insoll"
   },
-  "text": "feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in"
+  "text": "feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "lantonopoulos24",
     "avatarSrc": "https://robohash.org/veltemporibusaut.png?size=100x100&set=set1",
     "displayName": "Lezlie Antonopoulos"
   },
-  "text": "a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam"
+  "text": "a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "tcraigg25",
     "avatarSrc": "https://robohash.org/enimnonvel.png?size=100x100&set=set1",
     "displayName": "Tanhya Craigg"
   },
-  "text": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum"
+  "text": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rdelicate26",
     "avatarSrc": "https://robohash.org/nondignissimosin.png?size=100x100&set=set1",
     "displayName": "Rutter Delicate"
   },
-  "text": "primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam"
+  "text": "primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "fbuscombe27",
     "avatarSrc": "https://robohash.org/voluptatemrationefacere.bmp?size=100x100&set=set1",
     "displayName": "Filippo Buscombe"
   },
-  "text": "quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit"
+  "text": "quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ebentinck28",
     "avatarSrc": "https://robohash.org/voluptastemporareprehenderit.jpg?size=100x100&set=set1",
     "displayName": "Ellie Bentinck"
   },
-  "text": "non quam nec dui luctus rutrum nulla tellus in sagittis"
+  "text": "non quam nec dui luctus rutrum nulla tellus in sagittis",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "ieddowes29",
     "avatarSrc": "https://robohash.org/utsapienteea.bmp?size=100x100&set=set1",
     "displayName": "Isabel Eddowes"
   },
-  "text": "ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum"
+  "text": "ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "achattoe2a",
     "avatarSrc": "https://robohash.org/voluptasestdignissimos.jpg?size=100x100&set=set1",
     "displayName": "Angela Chattoe"
   },
-  "text": "libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et"
+  "text": "libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cgebby2b",
     "avatarSrc": "https://robohash.org/fugitdolorin.bmp?size=100x100&set=set1",
     "displayName": "Coretta Gebby"
   },
-  "text": "vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt"
+  "text": "vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "dmccullough2c",
     "avatarSrc": "https://robohash.org/etcumquealias.png?size=100x100&set=set1",
     "displayName": "Dianne McCullough"
   },
-  "text": "condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut"
+  "text": "condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "gshepheard2d",
     "avatarSrc": "https://robohash.org/quodanulla.jpg?size=100x100&set=set1",
     "displayName": "Gaspar Shepheard"
   },
-  "text": "pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam"
+  "text": "pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "gandreutti2e",
     "avatarSrc": "https://robohash.org/ducimusveniamut.jpg?size=100x100&set=set1",
     "displayName": "Gawen Andreutti"
   },
-  "text": "consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec"
+  "text": "consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "cbartoszinski2f",
     "avatarSrc": "https://robohash.org/nonvoluptatemquaerat.png?size=100x100&set=set1",
     "displayName": "Cindie Bartoszinski"
   },
-  "text": "donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero"
+  "text": "donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "mmaggs2g",
     "avatarSrc": "https://robohash.org/temporaasperioresassumenda.png?size=100x100&set=set1",
     "displayName": "Michel Maggs"
   },
-  "text": "felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo"
+  "text": "felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jcarass2h",
@@ -747,35 +836,40 @@
     "img": {
       "src": "http://dummyimage.com/1324x498.bmp/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "qberrisford2i",
     "avatarSrc": "https://robohash.org/delectusabodit.jpg?size=100x100&set=set1",
     "displayName": "Quill Berrisford"
   },
-  "text": "ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla"
+  "text": "ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "rbernetti2j",
     "avatarSrc": "https://robohash.org/autaliquamrepudiandae.bmp?size=100x100&set=set1",
     "displayName": "Rory Bernetti"
   },
-  "text": "nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi"
+  "text": "nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "llutwyche2k",
     "avatarSrc": "https://robohash.org/consecteturoccaecatiest.png?size=100x100&set=set1",
     "displayName": "Lacy Lutwyche"
   },
-  "text": "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie"
+  "text": "in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "tstanton2l",
     "avatarSrc": "https://robohash.org/voluptatesesseet.jpg?size=100x100&set=set1",
     "displayName": "Tori Stanton"
   },
-  "text": "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio"
+  "text": "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "mthompson2m",
@@ -787,21 +881,24 @@
     "img": {
       "src": "http://dummyimage.com/1384x548.png/ff4444/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "dreinbach2n",
     "avatarSrc": "https://robohash.org/sedutex.jpg?size=100x100&set=set1",
     "displayName": "Dru Reinbach"
   },
-  "text": "nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam"
+  "text": "nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "iverey2o",
     "avatarSrc": "https://robohash.org/minusdoloremquesequi.jpg?size=100x100&set=set1",
     "displayName": "Imelda Verey"
   },
-  "text": "nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat"
+  "text": "nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "jprobert2p",
@@ -813,14 +910,16 @@
     "img": {
       "src": "http://dummyimage.com/497x871.bmp/5fa2dd/ffffff"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "akernell2q",
     "avatarSrc": "https://robohash.org/dictamagnialiquid.png?size=100x100&set=set1",
     "displayName": "Almeda Kernell"
   },
-  "text": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non"
+  "text": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non",
+  "__MUUN_MODEL_TYPE": "TWEET"
 }, {
   "sender": {
     "twitterHandle": "mabbie2r",
@@ -832,5 +931,6 @@
     "img": {
       "src": "http://dummyimage.com/920x923.bmp/dddddd/000000"
     }
-  }
+  },
+  "__MUUN_MODEL_TYPE": "TWEET"
 }]

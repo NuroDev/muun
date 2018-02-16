@@ -1,7 +1,7 @@
 import exampleTweets from '../../../resources/tweets.example.json'
 
 const state = {
-  tweets: exampleTweets,
+  cards: exampleTweets,
   getTweets: function (amount) {
     return getRandomSubarray(exampleTweets, amount)
   }

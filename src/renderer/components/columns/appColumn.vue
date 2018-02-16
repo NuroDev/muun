@@ -7,7 +7,7 @@
           <v-container class="appColumn scroll-y pt-0" :id="'scroll-for-' + columnId">
               <v-layout row align-center justify-center v-scroll="{target: '#scroll-for-' + this.columnId, callback: this.onScroll}">
                   <v-flex xs12>
-                      <appTweet v-for='i in tweets' :tweet='i' :key="i.id"/>
+                      <appCard v-for='i in cards' :card='i'/>
                   </v-flex>
               </v-layout>
           </v-container>
@@ -18,8 +18,8 @@
 <script>
   import appColumnError from './appColumnError'
   import appColumnTitlebar from './appColumnTitlebar'
-  import appTweet from './cards/tweets/appTweet'
   import suppliers from '../../../api/twitter/suppliers/suppliers'
+  import appCard from './cards/appCard'
 
   import settingsStore from '../../store/modules/settings'
 
@@ -27,7 +27,7 @@
     components: {
       appColumnError,
       appColumnTitlebar,
-      appTweet
+      appCard
     },
     created () {
       this.fetchData()
@@ -44,7 +44,7 @@
           width: settingsStore.state.columnOptions.columnWidth + 'px',
           padding: '0 3px'
         },
-        tweets: [],
+        cards: [],
         loading: true,
         post: null,
         error: null,
@@ -54,14 +54,14 @@
           if (err) {
             this.error = JSON.stringify(err)
           } else {
-            this.tweets = tweets
+            this.cards = tweets
           }
         })
       }
     },
     methods: {
       fetchData () {
-        this.error = this.tweets = null
+        this.error = this.cards = null
         this.loading = true
         this.supplier.load()
       },
