@@ -20,7 +20,7 @@
   import appColumnTitlebar from './appColumnTitlebar'
   import appTweet from './cards/tweets/appTweet'
   import tweetsStore from '../../store/modules/tweets'
-  import suppliers from '../../../app/twitter/suppliers/suppliers'
+  import suppliers from '../../../api/twitter/suppliers/suppliers'
 
   import settingsStore from '../../store/modules/settings'
 

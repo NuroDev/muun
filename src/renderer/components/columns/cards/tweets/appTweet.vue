@@ -1,7 +1,7 @@
 <template>
 
         <!-- Main tweet card -->
-        <v-card :value='tweet.active' :key='tweet.title'  class="column-card">
+        <v-card :value='tweet.active' :key='tweet.title'  class="column-card pt-2 pb-2">
 
           <v-card-title class="tweet-title">
             <img class="wrapping-avatar" v-bind:src='tweet.sender.avatarSrc'/>
