@@ -15,16 +15,16 @@ const mutations = {
   toggleDarkTheme (state) {
     state.isDarkTheme = !state.isDarkTheme
     config.set('settings.theme.isDarkTheme', !state.theme.isDarkTheme)
+    console.log('Toggling theme...')
   }
 }
 
-/** const actions = {
-    someAsyncTask ({commit}) {
-      commit('INCREMENT_MAIN_COUNTER')
-    }
-} **/
+const actions = {
+  toggleDarkTheme: ({ commit }) => commit('toggleDarkTheme')
+}
 
 export default {
   state,
-  mutations
+  mutations,
+  actions
 }

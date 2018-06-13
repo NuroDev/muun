@@ -8,7 +8,7 @@
       "supplier": {
         "name": "timelines/home",
         "data": {
-          "for_user": ""
+          "for_user": "TODO"
         }
       },
       "order": 0
@@ -18,7 +18,7 @@
       "icon": "notifications",
       "title": "Notifications",
       "username": "username",
-      "supplier": "dummy",
+      "supplier": "_test/dummy-default",
       "order": 1
     },
     {
@@ -26,7 +26,7 @@
       "icon": "rss_feed",
       "title": "Activity",
       "username": "username",
-      "supplier": "dummy",
+      "supplier": "_test/dummy-default",
       "order": 2
     },
     {
@@ -34,7 +34,7 @@
       "icon": "person",
       "title": "User",
       "username": "username",
-      "supplier": "dummy",
+      "supplier": "_test/dummy-default",
       "order": 3
     },
     {
@@ -42,7 +42,7 @@
       "icon": "forum",
       "title": "Messages",
       "username": "username",
-      "supplier": "dummy",
+      "supplier": "_test/dummy-default",
       "order": 4
     }
   ]
